@@ -54,7 +54,7 @@ class Quiz {
       var correctAns = "2"
 
       if(correctAns === allContestants[plr].answer)
-      fill("red")
+      fill("green")
       else 
       fill("black");
 
